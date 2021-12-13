@@ -11,8 +11,8 @@ match i:
     case 4:
         print("4")
     case 5:
-        print("6")
-    case 6:
         print("5")
+    case 6:
+        print("6")
     case _:
         print("default")
