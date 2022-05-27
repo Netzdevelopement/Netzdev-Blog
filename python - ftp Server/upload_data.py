@@ -13,9 +13,4 @@ filename = "test2.txt"
 with open(filename, "rb") as file:
     ftp_server.storbinary(f"STOR {filename}", file)
 
-ftp_server.dir()
- 
-file= open(filename, "r")
-print('File Content:', file.read())
-
 ftp_server.quit()
